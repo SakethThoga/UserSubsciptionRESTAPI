@@ -1,0 +1,130 @@
+body {
+  background: #ffffff url("images/blueCircles.png") no-repeat fixed;
+  background-size: cover;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.window {
+  position: fixed;
+  top: 12.5%;
+  left: 22.5%;
+  width: 55%;
+  height: 75%;
+}
+.left {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 50%;
+  background: #2381f7;
+  background-image: url("images/purpleCirlces.png");
+  background-size: cover;
+}
+.right {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+}
+.getStarted {
+  font-size: x-large;
+  font: outline;
+  font-weight: bold;
+  color: #fff;
+}
+.signups {
+  text-align: center;
+  top: auto;
+  margin-top: 65%;
+}
+.smallButtons {
+  margin: 5%;
+  float: right;
+}
+.heading {
+  margin-top: 25%;
+  margin-left: 20%;
+  font-size: x-large;
+  font-weight: bold;
+}
+.socialMedia {
+  background-color: transparent; /* Green */
+  color: white;
+  border: 1px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+.inputs {
+  margin-left: 20%;
+  margin-top: 5%;
+  font-size: smaller;
+  font-weight: lighter;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #2381f7;
+  border-width: 2px;
+  padding: 0px 0px;
+}
+#email {
+  width: 100%;
+}
+
+.signup {
+  background-color: #2381f7;
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.already {
+  font-size: small;
+  margin-left: 20%;
+}
+.goSignIn {
+  color: darkgray;
+  text-justify: right;
+  width: 50%;
+}
+.member {
+  width: 50%;
+}
+.already {
+  width: 105%;
+  display: flex;
+  justify-content: space-between;
+}
+.signuplink {
+  color: darkgray;
+}
+.small {
+  float: left;
+  font-size: 15px;
+  margin: none;
+  padding: 10px 10px;
+}
+#button1 {
+  background-color: #2381f7;
+  color: white;
+  border: 1px;
+  border-color: #2381f7;
+}
+#button2 {
+  background-color: #ffffff;
+  border: 1px;
+  border-color: black;
+}
+.smallButtons {
+  padding: 20px 20px;
+}

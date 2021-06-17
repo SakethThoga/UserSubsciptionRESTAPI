@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS-Assignment Answers</title>
+  </head>
+  <body>
+    <h1>JS Assignment 1</h1>
+    <hr />
+    <div class="questionAnswer">
+      <div class="question">
+        1. Create a function, which will take 4 parameters, and return the
+        greater then between them.
+      </div>
+      <div class="form">
+        <form>
+          First Parameter:
+          <br />
+          <input
+            type="number"
+            class="param1"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Second Parameter:
+          <br />
+          <input
+            type="number"
+            class="param2"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Third Parameter:
+          <br />
+          <input
+            type="number"
+            class="param3"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Fourth Parameter:
+          <br />
+          <input
+            type="number"
+            class="param4"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+        </form>
+        <button class="findTheGreatest">Find Greatest</button>
+      </div>
+      <div class="answer">
+        <br />
+        The greatest number is :
+        <div class="greatestNumber"></div>
+      </div>
+    </div>
+    <hr />
+    <div class="questionAnswer">
+      <div class="question">
+        2. Create a function, which will take current date, and return your age.
+        Note. date format should be dd/mm/yyyy.
+      </div>
+      <div class="form">
+        <form>
+          Enter your Birthday date in dd/mm/yyyy format:
+          <br />
+          <input
+            type="date"
+            class="bdayDate"
+            placeholder="Enter your Bday date:"
+          />
+        </form>
+        <button class="findAge">Find your age</button>
+        <div class="answer">
+          <br />
+          Your current age is
+          <div class="currentAge"></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="questionAnswer">
+      <div class="question">
+        3. Create a function, which will take 4 numbers and store inside an
+        array.
+      </div>
+      <div class="form">
+        <form>
+          First number:
+          <br />
+          <input
+            type="number"
+            class="num1"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Second number:
+          <br />
+          <input
+            type="number"
+            class="num2"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Third number:
+          <br />
+          <input
+            type="number"
+            class="num3"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Fourth number:
+          <br />
+          <input
+            type="number"
+            class="num4"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+        </form>
+        <button class="storeInArray">Store in Array</button>
+        <div class="answer">
+          The array is
+          <div class="arrayAnswer"></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="questionAnswer">
+      <div class="question">
+        4. Create a function, which will take numbers from two input field,
+        return as result and result should be depend upon your operators.
+      </div>
+      <div class="form">
+        <form>
+          First number:
+          <br />
+          <input
+            type="number"
+            class="num5"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          Second number:
+          <br />
+          <input
+            type="number"
+            class="num6"
+            placeholder="Enter a number"
+            value="0"
+          />
+          <br />
+          <label for="operators">Choose an operator:</label>
+
+          <select name="operators" class="operator">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+          </select>
+        </form>
+        <button class="evaluateExpression">Evaluate given expression</button>
+      </div>
+      <div class="answer">
+        The result is
+        <div class="evaluatedAnswer"></div>
+      </div>
+    </div>
+    <hr />
+    <div class="questionAnswer">
+      <div class="question">
+        5. Create a form, which will take some input from input fields, store in
+        a local storage on browser. Show the results in the table format.
+      </div>
+      <form>
+        Enter your Username:
+        <br />
+        <input type="text" id="q51" placeholder="Enter your username" />
+        <br />
+        Enter your Email Address:
+        <br />
+        <input type="email" id="q52" placeholder="Enter your email address" />
+        <br />
+        Enter your Phone Number:
+        <br />
+        <input type="number" id="q53" placeholder="Enter your Phone Number" />
+        <br />
+        Enter your Date of Birth:
+        <br />
+        <input type="date" id="q54" placeholder="Enter your date of birth" />
+      </form>
+      <button class="enterData">Enter data</button>
+
+      <table style="width: 100%" class="BioDataTable">
+        <tr>
+          <th>User Name</th>
+          <th>Email</th>
+          <th>Phone Number</th>
+          <th>Birthday Date</th>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
